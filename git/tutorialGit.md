@@ -14,11 +14,13 @@
 
     O GitHub é uma plataforma de hospedagem (quase um google drive) que utiliza o Git. Em um péssimo resumo, uma "rede social" de códigos.  
 
+
 ## Termos
 
 - **repo/repository**: local onde fica os arquivos; diretório.
 - **commit**: coleção de alterações no código.
 - **branch**: em PT-BR, ramificação!! A principal se chama **master** ou **main**
+
 
 ## 1. Instalando e configurando
 
@@ -45,12 +47,13 @@ git config --global user.email "nome@email.com"
 ```
 
 
-## 2. Criando token github
+## 2. Criando Token Github
 
 Após criar sua conta, você precisará de um token de acesso.
 - Basta ir em Settings > Developer Settings > Tokens > Generate new token
     - Você pode definir uma data de validade
     - SALVE em algum lugar !! Você não conseguirá consultar este token novamente
+
 
 ## 3. Criando um repositório remoto no GitHub
 
@@ -71,6 +74,7 @@ Dica: salve os comando abaixo, principalmente o
 ```.sh
 git remote add origin https://github.com/brunomaion/exemplo1.git
 ```
+
 
 ## 4. Iniciando seu repositório
 
@@ -94,6 +98,7 @@ Initialized empty Git repository in /home/bruno/Desktop/PastaExemplo/.git/
 Com este comando, foi criado a pasta ".git" uma pasta invsível que contém todas as infromações necessárias para que o git funcione.
 
 Se ainda estiver em dúvida dê "ls -la" 
+
 
 ## 5. Status e Commits
 
@@ -128,6 +133,7 @@ Agora adiconado, você já pode commitar as alterações.
 git commit -m "Primeiro commit!"
 ```
 ![alt text](image-3.png)
+
 
 ## 6. master -> main
 
