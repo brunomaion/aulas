@@ -47,6 +47,7 @@ git config --global user.email "nome@email.com"
 ```
 
 
+
 ## 2. Criando Token Github
 
 Após criar sua conta, você precisará de um token de acesso.
@@ -80,7 +81,7 @@ git remote add origin https://github.com/brunomaion/exemplo1.git
 
 Em sua máquina local, escolha um diretório de trabalho, conhecido como workspace....
 
-Dica para linux: Criando pasta com mkdir
+- Dica para linux: Criando pasta com mkdir
 ```
 mkdir ~/Desktop/PastaExemplo
 ```
@@ -97,7 +98,7 @@ Initialized empty Git repository in /home/bruno/Desktop/PastaExemplo/.git/
 
 Com este comando, foi criado a pasta ".git" uma pasta invsível que contém todas as infromações necessárias para que o git funcione.
 
-Se ainda estiver em dúvida dê "ls -la" 
+- Se ainda estiver em dúvida dê "ls -la" 
 
 
 ## 5. Status e Commits
@@ -180,9 +181,30 @@ git push -u origin main
 
 ![alt text](image-6.png)
 
+### CONCLUSÃO
+
+Em primeiro contato pode parecer assustador e complicado, mas tente lembrar que Git e GitHub são coisas distintas.
+
+Para lembrar do passo a passo não precisa decorar (google existe pra isso!). Lembre-se em resumo:
+- 1. Crie o repo remoto 
+- 2. Inicie o git
+- 3. Adicione os arquivos e faça o commit (COMMITAR!!)
+- 4. Mude o nome da brainch para main
+- 5. Adicione o repo remoto ao seu repo local e empurre (PUSH!!!)
+
+Para futuras alterações:
+- 1. commit !!
+- 2. push !!
+
+
 ## Outros
+
+### clonar repositório
+
+Para clonar um repositório remoto
+
 ```.sh
-git 
+git clone <link>
 ```
 
 ### .gitignore
