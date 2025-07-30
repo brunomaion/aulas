@@ -46,6 +46,10 @@ git config --global user.name "Nome"
 git config --global user.email "nome@email.com"
 ```
 
+Para conferir:
+```.sh
+git config --list
+```
 
 
 ## 2. Criando Token Github
