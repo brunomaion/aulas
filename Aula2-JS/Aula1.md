@@ -1,6 +1,13 @@
 # Aula 1: Introdução ao HTML com JavaScript
 
-## Estrutura Básica do HTML
+## Estrutura Básica do HTML referenciando externamente
+
+Os arquivos deve estar na "MinhaPasta", este nome é exemplo! A única regra é quando referenciar o script deve ser o mesmo nome
+
+/MinhaPasta
+
+- index.html
+- script.js
 
 ```html
 <!DOCTYPE html>
@@ -33,9 +40,3 @@ function mostrarMensagem() {
 
 - O botão chama a função `mostrarMensagem()` quando clicado.
 - O arquivo JavaScript está separado e incluído com `<script src="script.js"></script>`.
-
-## Exercício
-
-1. Crie os arquivos `index.html` e `script.js`.
-2. Teste a página em seu navegador.
-3. Modifique a mensagem do alerta no JavaScript.
