@@ -1,4 +1,4 @@
-# Aula 1: Introdução ao HTML com JavaScript
+# Aula 2: Introdução ao HTML com JavaScript
 
 ## Estrutura Básica do HTML referenciando externamente
 
@@ -40,3 +40,27 @@ function mostrarMensagem() {
 
 - O botão chama a função `mostrarMensagem()` quando clicado.
 - O arquivo JavaScript está separado e incluído com `<script src="script.js"></script>`.
+
+
+
+## Exercício
+
+Criar 4 algoritmos em JavaScript, de preferência em pasta distintas 
+
+Criar dois algoritmos com entrada e saída
+
+- Um com if, else if, else
+
+- Outro com switch case
+
+Criar dois algoritmos com entrada apenas
+
+- Um com um for
+- Outro com while ou do while
+
+
+
+Enviar compactado (.zip) ou o link do repositório pela tarefa no classroom até dia 21/04/2025;
+
+
+
