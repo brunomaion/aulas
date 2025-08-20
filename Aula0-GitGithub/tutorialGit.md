@@ -2,17 +2,41 @@
 
 - O que é o git?
 
-    Git é um sistema de versionamento de código open-source, isto é, de código aberto para o público e de uso livre.
+    O **Git** é um sistema de **controle de versão** de código aberto (*open source*), usado para gerenciar alterações em arquivos ao longo do tempo. Ele é muito utilizado no desenvolvimento de software, permitindo que várias pessoas trabalhem juntas no mesmo projeto sem perder o histórico das mudanças.
 
 - Mas o que é um sistema de versionamento de código?
 
-    "gerenciar diferentes versões no desenvolvimento de um documento qualquer. Esses sistemas são comumente utilizados no desenvolvimento de software para controlar as diferentes versões — histórico e desenvolvimento — dos códigos-fontes e também da documentação" - Wikipeda
-    
-    Maior controle sobre o processo de desenvolvimento, permitindo também o desenvolvimento em paralelo.
+    É um sistema que serve para **gerenciar diferentes versões** de arquivos ou documentos. Utilizado para obter maior controle sobre o processo de desenvolvimento, permitindo também o desenvolvimento em paralelo (mais de 1 programador). Permitindo:
+
+    - Controlar o histórico de alterações do código-fonte.
+
+    - Permitir a recuperação de versões anteriores.
+
+    - Facilitar o desenvolvimento em **paralelo** (várias pessoas editando sem conflito permanente).
+
+    - Garantir maior **organização e segurança** no processo de desenvolvimento.
+
+
+- Qual a importância de usar um sistema de versionamento de código?
+
+  - **Histórico seguro**: todo o progresso é registrado.
+
+  - **Colaboração**: vários desenvolvedores podem trabalhar no mesmo projeto.
+  - **Rastreamento de erros**: é possível voltar a uma versão estável se surgir um problema.
+
+  - **Organização**: facilita a criação de diferentes ramificações (*branches*) para desenvolver novas funcionalidades sem quebrar o projeto principal.
 
 - E o GitHub?
 
-    O GitHub é uma plataforma de hospedagem (quase um google drive) que utiliza o Git. Em um péssimo resumo, uma "rede social" de códigos.  
+    Funciona como um **"Google Drive dos códigos"**, mas com ferramentas próprias para programadores.
+
+    Permite armazenar, compartilhar e colaborar em projetos.
+
+    Também funciona como uma **rede social de desenvolvedores**, onde é possível:
+
+    - Contribuir em projetos abertos.
+    - Publicar seus próprios repositórios.
+    - Interagir com outros programadores.
 
 
 ## Termos
@@ -20,6 +44,8 @@
 - **repo/repository**: local onde fica os arquivos; diretório.
 - **commit**: coleção de alterações no código.
 - **branch**: em PT-BR, ramificação!! A principal se chama **master** ou **main**
+
+
 
 
 ## 1. Instalando e configurando
@@ -33,6 +59,18 @@ Windows
 ```.sh
 https://git-scm.com/downloads/win
 ```
+
+
+
+### **Após a instalação**
+
+Para utilizar o **Git** no:
+
+- Linux: Basta abrir o terminal.
+
+![image-20250820081422606](/home/bruno/.config/Typora/typora-user-images/image-20250820081422606.png)
+
+- Windows: Abra o programa **Git Bash**, 
 
 ### Configurando
 
@@ -54,7 +92,10 @@ git config --list
 
 ## 2. Criando Token Github
 
+**ATENÇÃO !!** - O token só é necessário utilizando Linux, no Windows quando você faz o primeiro "push" ele autentifica pelo login no seu navegador. 
+
 Após criar sua conta, você precisará de um token de acesso.
+
 - Basta ir em Settings > Developer Settings > Tokens > Generate new token
     - Você pode definir uma data de validade
     - SALVE em algum lugar !! Você não conseguirá consultar este token novamente
@@ -212,7 +253,7 @@ git clone <link>
 ```
 
 ### .gitignore
-    
+
 O arquivo .gitignore serve para que o git literalmente ignore os arquivos listados que foram declarados.
 
 Por exemplo: arquivos com senhas ou dados sensíveis que estão no diretório englobado pelo git mas não devem ser acessados por ele.
