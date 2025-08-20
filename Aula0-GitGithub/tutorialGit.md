@@ -68,9 +68,13 @@ Para utilizar o **Git** no:
 
 - Linux: Basta abrir o terminal.
 
-![image-20250820081422606](/home/bruno/.config/Typora/typora-user-images/image-20250820081422606.png)
+- Windows: Abra o programa **Git Bash**,
 
-- Windows: Abra o programa **Git Bash**, 
+![image-7](C:\Users\Bruno\Desktop\aulas\Aula0-GitGithub\image-7.png)
+
+![image-8](C:\Users\Bruno\Desktop\aulas\Aula0-GitGithub\image-8.png)
+
+
 
 ### Configurando
 
@@ -183,13 +187,13 @@ git commit -m "Primeiro commit!"
 
 ## 6. master -> main
 
-Por preferência, altere o nome da sua branch principal para main
+Por preferência, altere o nome da sua **branch** principal para main
 
 ```.sh
 git branch -M main
 ```
 
-Para verificar qual branch você está, utilize o comando 
+Para verificar em qual branch você está trabalhando, utilize o comando 
 ```.sh
 git branch
 ```
